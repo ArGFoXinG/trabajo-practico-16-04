@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cultura Argentina, Busca tu Cine, Teatros y Recitales</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b09d4fb5bd.js" crossorigin="anonymous"></script>
+    <title>Cines</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav>
+            <div id="logo">
+                <a href="../index.html">
+                    <img src="../img/Bailando.png" alt="logo bailarines">
+                    <span class="logo-text">Cultura Argentina</span>
+                </a>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../template/teatro.html">Teatro</a></li>
+                <li><a href="../template/recitales.html">Recitales</a></li>
+                <li><a href="../template/about.html">Quienes somos</a></li>
+                <li><a href="../template/contacto.html">Contacto</a></li>
+                
+                <div class="search">
+                    <form action="#" method="get">
+                        <div class="form-control">
+                            <!-- box de ingreso de datos (input-search)-->
+                            <input type="text" placeholder="Buscar..." class="inputBuscador" name="pelicula">
+                            <!-- Boton de accion (button-search)-->
+                            <input type="submit" value="Buscar" class="botonBuscador">
+                        </div>
+                    </form>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="popular">
+
+            <!-- División contenedora del titulo e imagenes -->
+            <div class="container" class="show-grid">
+
+                <h2>ÚLTIMOS ESTRENOS</h2>
+                <!-- Div para mostrar todas las imagenes e info de las obras -->
+                <div id="list-popular">
+
+                    <!-- División que mostrará imagen y detalle de la obra, mismo  formato para todas las obras -->
+                    <!-- pelicula 01 -->
+                    <div class="show-item">
+                        <a href="https://www.cinemarkhoyts.com.ar/proximamente/BACK-TO-BLACK">
+                            <img src="../img/backtoblack.jpg" alt="Back to black" class="show-item-img">
+
+                            <div class="show-item-detail">
+                                <p class="show-item-detail-title">Back To Black</p>
+                                <p class="show-item-detail-subtitle">Ver más</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- pelicula 02 -->
+                    <div class="show-item">
+                        <a href="https://www.cinemarkhoyts.com.ar/pelicula/KUNG-FU-PANDA-4">
+                            <img src="../img/kunfupanda.jpg" alt="Kun fu Panda 4" class="show-item-img">
+
+                            <div class="show-item-detail">
+                                <p class="show-item-detail-title">Kun Fu Panda 4</p>
+                                <p class="show-item-detail-subtitle">Ver más</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- pelicula 03 -->
+                    <div class="show-item">
+                        <a href="https://www.cinemarkhoyts.com.ar/pelicula/DUNA-PARTE-DOS">
+                            <img src="../img/duna.jpg" alt="Duna parte 2" class="show-item-img">
+
+                            <div class="show-item-detail">
+                                <p class="show-item-detail-title">Duna Parte 2</p>
+                                <p class="show-item-detail-subtitle">Ver más</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- pelicula 04 -->
+                    <div class="show-item">
+                        <a href="https://www.cinemarkhoyts.com.ar/pelicula/GODZILLA-X-KONG-EL-NUEVO-IMPERIO">
+                            <img src="../img/godzilla.jpg" alt="Godzilla X Kong El Nuevo Imperio" class="show-item-img">
+
+                            <div class="show-item-detail">
+                                <p class="show-item-detail-title">Godzilla X Kong El Nuevo Imperio</p>
+                                <p class="show-item-detail-subtitle">Ver más</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- pelicula 05 -->
+                    <div class="show-item">
+                        <a href="https://www.cinemarkhoyts.com.ar/pelicula/LAZOS-DE-VIDA">
+                            <img src="../img/lazosdevida.jpg" alt="Lazos De Vida" class="show-item-img">
+
+                            <div class="show-item-detail">
+                                <p class="show-item-detail-title">Lazos De Vida</p>
+                                <p class="show-item-detail-subtitle">Ver más</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- pelicula 06 -->
+                    <div class="show-item">
+                        <a href="https://www.cinemarkhoyts.com.ar/pelicula/TOKYO-SHAKING" target="_blank" rel="noopener">
+                            <img src="../img/tokyoshaking.jpg" alt="Tokyo Shaking" class="show-item-img">
+
+                            <div class="show-item-detail">
+                                <p class="show-item-detail-title">Tokyo Shaking</p>
+                                <p class="show-item-detail-subtitle">Ver más</p>
+                            </div>
+                        </a>
+                    </div>
+                     <!-- pelicula 07 -->
+                     <div class="show-item">
+                        <a href="https://www.cinemarkhoyts.com.ar/pelicula/LA-PRIMERA-PROFECIA" target="_blank" rel="noopener">
+                            <img src="../img/laprofecia.jpg" alt="La primera profecía" class="show-item-img">
+                            <div class="show-item-detail">
+                                <p class="show-item-detail-title">La Primera Profecía</p>
+                                <p class="show-item-detail-subtitle">Ver más</p>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- pelicula 08 -->
+                    <div class="show-item">
+                        <a href="https://www.cinemarkhoyts.com.ar/pelicula/LA-NOCHE-QUE-LUCHE-CONTRA-DIOS" target="_blank" rel="noopener">
+                            <img src="../img/lanochequeluchecontradios.jpg" alt="La n oche que luche contra Dios" class="show-item-img">
+
+                            <div class="show-item-detail">
+                                <p class="show-item-detail-title">La Noche Que Luche Contra Dios</p>
+                                <p class="show-item-detail-subtitle">Ver más</p>
+                            </div>
+                        </a>
+                    </div>
+                     <!-- pelicula 09 -->
+                     <div class="show-item">
+                        <a href="https://www.cinemarkhoyts.com.ar/pelicula/ARTHUR-UNA-AMISTAD-SIN-LIMITES" target="_blank" rel="noopener">
+                            <img src="../img/arthurunaamistadsinlimites.jpg" alt="Arthur Una Amistad Sin Limites" class="show-item-img">
+
+                            <div class="show-item-detail">
+                                <p class="show-item-detail-title">Arthur Una Amistad Sin Limites</p>
+                                <p class="show-item-detail-subtitle">Ver más</p>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- pelicula 10 -->
+                    <div class="show-item">
+                        <a href="" target="_blank" rel="noopener">
+                            <img src="" alt="" class="show-item-img">
+
+                            <div class="show-item-detail">
+                                <p class="show-item-detail-title"></p>
+                                <p class="show-item-detail-subtitle">Ver más</p>
+                            </div>
+                        </a>
+                    </div>
+
+    </main>
+
+    <footer id="footer">
+        <a href="">Todos los derechos reservados grupo 3 2024</a>
+    </footer>
+
+
+</body>
+
+</html>

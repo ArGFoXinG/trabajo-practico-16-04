@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cultura Argentina, Busca tu Cine, Teatros y Recitales</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header class="header">
+    <nav>
+      <div id="logo">
+        <a href="./index.html"> <img src="./img/Banner.svg" alt="logo bailarines" width="1583" height="100">
+        </a>
+      </div>
+
+    <!-- <div class="navbar"> -->
+      <div class="search">
+        <form action="#" method="get">
+          <div class="form-control">
+            <!-- box de ingreso de datos (input-search)-->
+            <input type="text" placeholder="Buscar..." class="inputBuscador" name="pelicula">
+            <!-- Boton de accion (button-search)-->
+            <input type="submit" value="Buscar" class="botonBuscador">
+          </div>   
+      <ul class="nav-links">
+        <li><a href="./template/teatro.html">Teatro</a></li>
+        <li><a href="./template/cines.html">Cines</a></li>
+        <li><a href="./template/recitales.html">Recitales</a></li>
+        <li><a href="./template/about.html">Quienes somos</a></li>
+        <li><a href="./template/contacto.html">Contacto</a></li>
+      </ul>
+        </form>
+      </div>
+    <!-- </div> -->
+    </nav>
+  </header>
+
+  <main>
+    <section id="title">
+      <!-- División contenedora del titulo
+                e imagenes -->
+      <div class="container-index">
+        <h2>¿Qué te gustaría hacer hoy?</h2>
+        <!-- Div para mostrar todas las imagenes e info 
+                    de las shows-->
+        <div class="grilla">
+          <div id="list-item">
+            <!-- teatro -->
+            <div class="title-item">
+              <a href="./template/teatro.html"> <img src="./img/Teatro.png" alt="" class="title-item-img">
+                <div class="title-item-detail">
+                  <p class="title-item-detail-title">TEATRO</p>
+                  <p class="title-item-detail-subtitle">Ver más</p>
+                </div>
+              </a>
+            </div>
+
+            <!-- Cine -->
+            <div class="title-item">
+              <a href="./template/cines.html">
+                <img src="./img/Cines.png" alt="" class="title-item-img">
+
+                <div class="title-item-detail">
+                  <p class="title-item-detail-title">CINES</p>
+                  <p class="title-item-detail-subtitle">Ver más</p>
+                </div>
+              </a>
+            </div>
+
+            <!-- Recitales -->
+            <div class="title-item">
+              <a href="./template/recitales.html">
+                <img src="./img/recitales.jpg" alt="" class="title-item-img">
+
+                <div class="title-item-detail">
+                  <p class="title-item-detail-title">RECITALES</p>
+                  <p class="title-item-detail-subtitle">Ver más</p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <section class="popular-teatro">
+            <!-- División contenedora del titulo e imagenes -->
+            <div class="container">
+              <h2>Top 5 Teatros</h2>
+              <!-- Div para mostrar todas las imagenes e info 
+                                de las obras -->
+              <div id="list-popular">
+                <!-- División que mostrará imagen y detalle de la obra, mismo 
+                                formato para todas las obras -->
+                <!-- obra 01 -->
+                <div class="show-item">
+                  <a href="https://www.plateanet.com/obra/27960?obra=TIEMPO-DE-ROCK&paso=inicio" target="_blank"
+                    rel="noopener">
+                    <img src="./img/tiempo-de-rock.jpg" alt="" class="show-item-img">
+                    <div class="show-item-detail">
+                      <p class="show-item-detail-title">Teatro Regina</p>
+                      <p class="show-item-detail-subtitle">Ver más</p>
+                    </div>
+                  </a>
+                </div>
+
+                <!-- obra 02 -->
+                <div class="show-item">
+                  <a href="https://www.plateanet.com/obra/28171?obra=EXPRESO-AL-REINO-DEL-REVES&paso=inicio"
+                    target="_blank" rel="noopener">
+                    <img src="img/expreso-al-reino-del-reves.jpg" alt="" class="show-item-img">
+
+                    <div class="show-item-detail">
+                      <p class="show-item-detail-title">
+                        Teatro Carlos Carella
+                      </p>
+                      <p class="show-item-detail-subtitle">Ver más</p>
+                    </div>
+                  </a>
+                </div>
+
+                <!-- obra 03 -->
+                <div class="show-item">
+                  <a href="https://www.plateanet.com/obra/28114?obra=LEGALMENTE-RUBIA&paso=inicio" target="_blank"
+                    rel="noopener">
+                    <img src="img/legalmente-rubia.jpg" alt="" class="show-item-img">
+                    <div class="show-item-detail">
+                      <p class="show-item-detail-title">Teatro Liceo</p>
+                      <p class="show-item-detail-subtitle">Ver más</p>
+                    </div>
+                  </a>
+                </div>
+              
+                <!-- obra 04 -->
+                <div class="show-item">
+                  <a href="https://www.plateanet.com/obra/27886?obra=FELICES-LOS-CUATRO&paso=inicio" target="_blank"
+                    rel="noopener">
+                    <img src="img/felices-los-cuatro.jpg" alt="" class="show-item-img">
+                    <div class="show-item-detail">
+                      <p class="show-item-detail-title">Teatro Multiescena</p>
+                      <p class="show-item-detail-subtitle">Ver más</p>
+                    </div>
+                  </a>
+                </div>
+
+                <!-- obra 05 -->
+                <div class="show-item">
+                  <a href="https://www.plateanet.com/obra/28247?obra=MR-SPLENDINI---ILUSIONES&paso=inicio"
+                    target="_blank" rel="noopener">
+                    <img src="img/mr-splendiniilusiones.jpg" alt="" class="show-item-img">
+
+                    <div class="show-item-detail">
+                      <p class="show-item-detail-title">Teatro Picadilly</p>
+                      <p class="show-item-detail-subtitle">Ver más</p>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="top-5 cines">
+                  <!-- División contenedora del titulo
+                                        e imagenes -->
+                  <div class="container">
+                    <h2>Top 5 Cines</h2>
+                    <!-- Div para mostrar todas las imagenes e info 
+                                            de las películas -->
+                    <div id="list-popular-cine">
+                      <!-- División que mostrará imagen y detalle de la pelicula, mismo 
+                                            formato para todas las peliculas -->
+                      <!-- pelicula 01 -->
+                      <div class="show-item">
+                        <a href="https://www.cinemarkhoyts.com.ar/proximamente/BACK-TO-BLACK">
+                          <img src="img/backtoblack.jpg" alt="Back to black" class="show-item-img">
+
+                          <div class="show-item-detail">
+                            <p class="show-item-detail-title">
+                              Back To Black
+                            </p>
+                            <p class="show-item-detail-subtitle">Ver más</p>
+                          </div>
+                        </a>
+                      </div>
+
+                      <!-- pelicula 02 -->
+                      <div class="show-item">
+                        <a href="https://www.cinemarkhoyts.com.ar/pelicula/KUNG-FU-PANDA-4">
+                          <img src="img/kunfupanda.jpg" alt="Kun fu Panda 4" class="show-item-img">
+
+                          <div class="show-item-detail">
+                            <p class="show-item-detail-title">
+                              Kun Fu Panda 4
+                            </p>
+                            <p class="show-item-detail-subtitle">Ver más</p>
+                          </div>
+                        </a>
+                      </div>
+
+                      <!-- pelicula 03 -->
+                      <div class="show-item">
+                        <a href="https://www.cinemarkhoyts.com.ar/pelicula/DUNA-PARTE-DOS">
+                          <img src="img/duna.jpg" alt="Duna parte 2" class="show-item-img">
+
+                          <div class="show-item-detail">
+                            <p class="show-item-detail-title">Duna Parte 2</p>
+                            <p class="show-item-detail-subtitle">Ver más</p>
+                          </div>
+                        </a>
+                      </div>
+
+                      <!-- pelicula 04 -->
+                      <div class="show-item">
+                        <a href="https://www.cinemarkhoyts.com.ar/pelicula/GODZILLA-X-KONG-EL-NUEVO-IMPERIO">
+                          <img src="img/godzilla.jpg" alt="Godzilla X Kong El Nuevo Imperio" class="show-item-img">
+
+                          <div class="show-item-detail">
+                            <p class="show-item-detail-title">
+                              Godzilla X Kong El Nuevo Imperio
+                            </p>
+                            <p class="show-item-detail-subtitle">Ver más</p>
+                          </div>
+                        </a>
+                      </div>
+
+                      <!-- pelicula 05 -->
+                      <div class="show-item">
+                        <a href="https://www.cinemarkhoyts.com.ar/pelicula/LAZOS-DE-VIDA">
+                          <img src="img/lazosdevida.jpg" alt="Lazos De Vida" class="show-item-img">
+
+                          <div class="show-item-detail">
+                            <p class="show-item-detail-title">
+                              Lazos De Vida
+                            </p>
+                            <p class="show-item-detail-subtitle">Ver más</p>
+                          </div>
+                        </a>
+                      </div>
+
+                      <section class="popular-recitales">
+                        <!-- División contenedora del titulo
+                            e imagenes -->
+                        <div class="container">
+                          <h2>Top 5 Recitales</h2>
+                          <!-- Div para mostrar todas las imagenes e info 
+                                de los recitales -->
+                          <div id="list-popular-recitales">
+                            <!-- División que mostrará imagen y detalle del recital, mismo 
+                                formato para todos los recitales -->
+                            <!-- Recital 01 -->
+                            <div class="show-item">
+                              <a href="https://www.movistararena.com.ar/show/d090d257-ade0-431e-9c14-02aeeba13f8f"
+                                target="_blank" rel="noopener">
+                                <img src="./img/Residente.jpg" alt="" class="show-item-img">
+
+                                <div class="show-item-detail">
+                                  <p class="show-item-detail-title">
+                                    Movistar Arena
+                                  </p>
+                                  <p class="show-item-detail-subtitle">
+                                    Ver más
+                                  </p>
+                                </div>
+                              </a>
+                            </div>
+
+                            <!-- Recital 02 -->
+                            <div class="show-item">
+                              <a href="https://www.movistararena.com.ar/show/21f03c85-b78b-465a-8eca-a49ee08de0f3"
+                                target="_blank" rel="noopener">
+                                <img src="./img/Ciro.jpg" alt="" class="show-item-img">
+
+                                <div class="show-item-detail">
+                                  <p class="show-item-detail-title">
+                                    Movistar Arena
+                                  </p>
+                                  <p class="show-item-detail-subtitle">
+                                    Ver más
+                                  </p>
+                                </div>
+                              </a>
+                            </div>
+
+                            <!-- Recital 03 -->
+                            <div class="show-item">
+                              <a href="https://entradauno.com/landing/13029-ratones-paranoicos?idEspectaculoCartel=13029&cHashValidacion=8dbe5301c47b046d6859a19b638f7e697d9a7c64"
+                                target="_blank" rel="noopener">
+                                <img src="./img/ratones-paraonicos.jpg" alt="" class="show-item-img">
+
+                                <div class="show-item-detail">
+                                  <p class="show-item-detail-title">
+                                    Estadio Velez
+                                  </p>
+                                  <p class="show-item-detail-subtitle">
+                                    Ver más
+                                  </p>
+                                </div>
+                              </a>
+                            </div>
+
+                            <!-- Recital 04 -->
+                            <div class="show-item">
+                              <a href="https://entradauno.com/landing/13241-morat?idEspectaculoCartel=13241&cHashValidacion=98caed22334668b7c4220054df6266d9fb1fcdff"
+                                target="_blank" rel="noopener">
+                                <img src="./img/morat.jpg" alt="" class="show-item-img">
+
+                                <div class="show-item-detail">
+                                  <p class="show-item-detail-title">
+                                    Estadio Velez
+                                  </p>
+                                  <p class="show-item-detail-subtitle">
+                                    Ver más
+                                  </p>
+                                </div>
+                              </a>
+                            </div>
+
+                            <!--Recital 05 -->
+                            <div class="show-item">
+                              <a href="https://www.ticketportal.com.ar/evt/default.php?p=68724860940AEDAF7529DDFDDAD726A767B86BDFD1504539#!/event"
+                                target="_blank" rel="noopener">
+                                <img src="./img/caligaris.jpg" alt="" class="show-item-img">
+
+                                <div class="show-item-detail">
+                                  <p class="show-item-detail-title">
+                                    Luna Park
+                                  </p>
+                                  <p class="show-item-detail-subtitle">
+                                    Ver más
+                                  </p>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer">
+    <a href="">Todos los derechos reservados grupo 3 2024</a>
+  </footer>
+</body>
+
+</html>

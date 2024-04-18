@@ -1,0 +1,182 @@
+
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cultura Argentina, Busca tu Cine, Teatros y Recitales</title>
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    </head>
+
+<body>
+    <header class="header">
+        <nav>
+            <div id="logo">
+                <a href="../index.html"> 
+                    <img src="../img/Banner.svg" alt="logo bailarines"> 
+                </a>
+            </div>
+        
+            <ul class="nav-links">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../template/cines.html">Cines</a></li>
+                <li><a href="../template/recitales.html">Recitales</a></li>
+                <li><a href="../template/about.html">Quienes somos</a></li>
+                <li><a href="../template/contacto.html">Contacto</a></li>
+
+            <!-- seccion del buscador -->
+            <div class="search">
+                <form action="#" method="get">
+                    <div class="form-control">
+                        <!-- box de ingreso de datos (input-search)-->
+                         <input type="text" placeholder="Buscar..." class="inputBuscador" name="pelicula">
+                         <!-- Boton de accion (button-search)-->
+                         <input type="submit" value="Buscar" class="botonBuscador">
+                    </div>     
+                </form>       
+            </div>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="popular-teatro">
+
+        <!-- División contenedora del titulo e imagenes -->
+            <div class="container" >
+               
+                <h2>ÚLTIMOS ESTRENOS</h2>
+                <!-- Div para mostrar todas las imagenes e info de las obras -->
+                    <div id="list-popular">
+               
+                    <!-- División que mostrará imagen y detalle de la obra, mismo  formato para todas las obras -->
+                    <!-- obra 01 -->
+                        <div class="show-item">
+                            <a href="https://www.plateanet.com/obra/27960?obra=TIEMPO-DE-ROCK&paso=inicio" target="_blank" rel="noopener"> 
+                                <img src="../img/tiempo-de-rock.jpg" alt="" class="show-item-img">
+                                           
+                                    <div class="show-item-detail">
+                                        <p class="show-item-detail-title">Teatro Regina</p>
+                                        <p class="show-item-detail-subtitle">Ver más</p>
+                                    </div> 
+                            </a>
+                        </div>
+               
+                    <!-- obra 02 -->
+                        <div class="show-item">
+                            <a href="https://www.plateanet.com/obra/28171?obra=EXPRESO-AL-REINO-DEL-REVES&paso=inicio" target="_blank" rel="noopener">
+                                <img src="../img/expreso-al-reino-del-reves.jpg" alt="" class="show-item-img">
+                                           
+                                    <div class="show-item-detail">
+                                        <p class="show-item-detail-title">Teatro Carlos Carella</p>
+                                        <p class="show-item-detail-subtitle">Ver más</p>
+                                    </div> 
+                            </a>
+                        </div>
+               
+                    <!-- obra 03 -->
+                        <div class="show-item">
+                            <a href="https://www.plateanet.com/obra/28114?obra=LEGALMENTE-RUBIA&paso=inicio" target="_blank" rel="noopener">
+                                <img src="../img/legalmente-rubia.jpg" alt="" class="show-item-img">
+                            
+                                    <div class="show-item-detail">
+                                        <p class="show-item-detail-title">Teatro Liceo</p>
+                                        <p class="show-item-detail-subtitle">Ver más</p>
+                                    </div> 
+                            </a>
+                        </div>              
+                    <!-- obra 04 -->
+                        <div class="show-item">
+                            <a href="https://www.plateanet.com/obra/28133?obra=HOMERO-PETTINATO---LO-DOY-TODO&paso=inicio" target="_blank" rel="noopener">
+                                <img src="../img/homero-pettinato-lo-doy-todo.jpg" alt="" class="show-item-img">
+                                           
+                                    <div class="show-item-detail">
+                                        <p class="show-item-detail-title">Paseo la plaza</p>
+                                        <p class="show-item-detail-subtitle">Ver más</p>
+                                    </div> 
+                            </a>
+                        </div>
+                                   
+                    <!-- obra 05 -->
+                        <div class="show-item">
+                            <a href="https://www.plateanet.com/obra/27886?obra=FELICES-LOS-CUATRO&paso=inicio" target="_blank" rel="noopener">
+                                <img src="../img/felices-los-cuatro.jpg" alt="" class="show-item-img">
+                                           
+                                    <div class="show-item-detail">
+                                        <p class="show-item-detail-title">Teatro Multiescena</p>
+                                        <p class="show-item-detail-subtitle">Ver más</p>
+                                    </div> 
+                            </a>
+                        </div>
+               
+                    <!-- obra 06 -->
+                        <div class="show-item">
+                            <a href="https://www.plateanet.com/obra/28247?obra=MR-SPLENDINI---ILUSIONES&paso=inicio" target="_blank" rel="noopener">
+                                <img src="../img/mr-splendiniilusiones.jpg" alt="" class="show-item-img">
+                                           
+                                    <div class="show-item-detail">
+                                        <p class="show-item-detail-title">Teatro Picadilly</p>
+                                        <p class="show-item-detail-subtitle">Ver más</p>
+                                    </div> 
+                            </a>
+                        </div>
+                    <!-- obra 07 -->
+                    <div class="show-item">
+                        <a href="https://www.plateanet.com/obra/23776?obra=LAS-COSAS-MARAVILLOSAS&paso=inicio" target="_blank" rel="noopener">
+                            <img src="../img/las-cosas-maravillosas.jpg" alt="" class="show-item-img">
+                                       
+                                <div class="show-item-detail">
+                                    <p class="show-item-detail-title">Multiteatro Comafi</p>
+                                    <p class="show-item-detail-subtitle">Ver más</p>
+                                </div> 
+                        </a>
+                    </div>  
+                    <!-- obra 08 -->
+                    <div class="show-item">
+                        <a href="https://www.plateanet.com/obra/27758?obra=TARICO-ON-THE-ROTEMBERG---SEAN-DE-TERMOS-Y-MA&paso=inicio" target="_blank" rel="noopener">
+                            <img src="../img/tarico.jpg" alt="" class="show-item-img">
+                                       
+                                <div class="show-item-detail">
+                                    <p class="show-item-detail-title">Teatro Politeama</p>
+                                    <p class="show-item-detail-subtitle">Ver más</p>
+                                </div> 
+                        </a>
+                    </div> 
+                    <!-- obra 09 -->
+                    <div class="show-item">
+                        <a href="https://www.plateanet.com/obra/25796?obra=VOTEMOS&paso=inicio" target="_blank" rel="noopener">
+                            <img src="../img/votemos.jpg" alt="" class="show-item-img">
+                                       
+                                <div class="show-item-detail">
+                                    <p class="show-item-detail-title">Teatro Metropolitan</p>
+                                    <p class="show-item-detail-subtitle">Ver más</p>
+                                </div> 
+                        </a>
+                    </div> 
+                    <!-- obra 10 -->
+                    <div class="show-item">
+                        <a href="https://www.plateanet.com/obra/28205?obra=LA-BELLA-DURMIENTE-_&paso=inicio" target="_blank" rel="noopener">
+                            <img src="../img/la-bella-durmiente.jpg" alt="" class="show-item-img">
+                                       
+                                <div class="show-item-detail">
+                                    <p class="show-item-detail-title">Teatro Astral</p>
+                                    <p class="show-item-detail-subtitle">Ver más</p>
+                                </div> 
+                        </a>
+                    </div>
+                    </div>
+            </div>
+        </section>
+ </main>
+
+    <footer id="footer">
+        <a href="">Todos los derechos reservados grupo 3 2024</a>
+    </footer>
+    
+</body>
+</html>
