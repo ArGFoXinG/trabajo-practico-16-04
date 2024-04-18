@@ -13,7 +13,7 @@
 
 body, html {
     font-family: var(--primary-font);
-    background-color: var(--bg-color);
+    background-image: url(../img/11.jpg);
     /* background: rgb(255,255,255);
     background: -moz-linear-gradient(16deg, rgba(255,255,255,1) 0%, rgba(251,207,112,1) 48%, rgba(238,231,216,1) 83%);
     background: -webkit-linear-gradient(16deg, rgba(255,255,255,1) 0%, rgba(251,207,112,1) 48%, rgba(238,231,216,1) 83%);
