@@ -67,14 +67,22 @@ body, html {
 .nav-links{
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 15px 20px;
     display: flex;
     justify-content: space-around;
     background-color: var(--nav-color);
-    overflow: hidden;
+    /* overflow: hidden; */
+}
 
 
 
+
+.links {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color: var(--letras-color);
+    
 }
     
 a{
@@ -82,9 +90,16 @@ a{
     color: var(--letras-color);
     font-family: var(--secondary-font);
     font-weight: bold;
-} 
+}  
 
+.search {
+    display: flex;
+    justify-content: center;
+}
 
+.nav-links li a:hover{
+    background-color: #d6cdd8;
+}
 
 #list-item {
     display: flex;
@@ -137,9 +152,10 @@ a{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     height: 100%;
+    gap: 4rem;
 }
 
 .container-index h2 {
@@ -162,3 +178,19 @@ a{
     }
 }
 
+/* Estilos comunes para todos los tamaños de pantalla */
+
+/* Media query para dispositivos móviles */
+/*@media only screen and (max-width: 600px) {
+    
+}
+
+/* Media query para tablets */
+/*@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  
+}
+
+/* Media query para computadoras de escritorio */
+/*@media only screen and (min-width: 1025px) {
+  
+} 

@@ -25,25 +25,16 @@
         </a>
       </div>
 
-    <!-- <div class="navbar"> -->
-      <div class="search">
-        <form action="#" method="get">
-          <div class="form-control">
-            <!-- box de ingreso de datos (input-search)-->
-            <input type="text" placeholder="Buscar..." class="inputBuscador" name="pelicula">
-            <!-- Boton de accion (button-search)-->
-            <input type="submit" value="Buscar" class="botonBuscador">
-          </div>   
+   <div class="navbar">       
       <ul class="nav-links">
-        <li><a href="./template/teatro.html">Teatro</a></li>
-        <li><a href="./template/cines.html">Cines</a></li>
-        <li><a href="./template/recitales.html">Recitales</a></li>
-        <li><a href="./template/about.html">Quienes somos</a></li>
-        <li><a href="./template/contacto.html">Contacto</a></li>
+        <li><a href="./template/teatro.html" class="links">Teatro</a></li>
+        <li><a href="./template/cines.html" class="links">Cines</a></li>
+        <li><a href="./template/recitales.html" class="links">Recitales</a></li>
+        <li><a href="./template/about.html" class="links">Quienes somos</a></li>
+        <li><a href="./template/contacto.html" class="links">Contacto</a></li>
       </ul>
-        </form>
-      </div>
-    <!-- </div> -->
+      
+    </div> 
     </nav>
   </header>
 
@@ -53,8 +44,19 @@
                 e imagenes -->
       <div class="container-index">
         <h2>¿Qué te gustaría hacer hoy?</h2>
-        <!-- Div para mostrar todas las imagenes e info 
-                    de las shows-->
+
+                    <div class="search">
+                      <form action="#" method="get">
+                        <div class="form-control">
+                          <!-- box de ingreso de datos (input-search)-->
+                          <input type="text" placeholder="Buscar..." class="inputBuscador" name="pelicula">
+                          <!-- Boton de accion (button-search)-->
+                          <input type="submit" value="Buscar" class="botonBuscador">
+                        </div> 
+                      </form>  
+                     </div> 
+                     
+  <!-- Div para mostrar todas las imagenes e info de las shows-->
         <div class="grilla">
           <div id="list-item">
             <!-- teatro -->
@@ -222,7 +224,8 @@
 
                           <div class="show-item-detail">
                             <p class="show-item-detail-title">
-                              Godzilla X Kong El Nuevo Imperio
+                              Godzilla X Kong <br> 
+                              El Nuevo Imperio
                             </p>
                             <p class="show-item-detail-subtitle">Ver más</p>
                           </div>
