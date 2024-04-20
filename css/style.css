@@ -95,6 +95,8 @@ a{
 .search {
     display: flex;
     justify-content: center;
+    height: 105px;
+  
 }
 
 .nav-links li a:hover{
@@ -114,8 +116,16 @@ a{
     width: 250px;
     height: 250px;
     object-fit: cover;
+    transition: all.5s;
+    box-shadow: 0px 15px 25px rgba(0,0,0,0.70);
+    
 }
 
+.title-item-img:hover{
+    transform: scale(1.09);
+    filter: blur(3px); 
+   
+}
 .title-item p {
     text-align: center;
 }
@@ -124,11 +134,28 @@ a{
     width: 200px;
     height: 200px;
     object-fit: cover;
+    transition: all.5s;
+    cursor: pointer;
+    box-shadow: 0px 15px 25px rgba(0,0,0,0.70); 
+    position: relative;
+    display: inline-block;
+}
+
+.show-item-img:hover{
+    transform: scale(1.09);
+    filter: blur(1.5px);
+
 }
 
 .show-item p {
     text-align: center;
 }
+
+
+.show-item:hover .show-item-detail{
+    top:0;
+}
+
 
 #list-popular{
     display: flex;
@@ -168,6 +195,13 @@ a{
     font-size: 50px;
 }
 
+
+#estrenos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+    justify-content: center;
+}
 
 
 @media only screen and (min-width: 601px) and (max-width: 768px){
