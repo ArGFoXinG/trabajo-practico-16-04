@@ -67,11 +67,10 @@ body, html {
 .nav-links{
     list-style-type: none;
     margin: 0;
-    padding: 15px 20px;
-    display: flex;
-    justify-content: space-around;
+    display: contents;
+    justify-content: flex-end;
     background-color: var(--nav-color);
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 
@@ -91,6 +90,10 @@ a{
     font-family: var(--secondary-font);
     font-weight: bold;
 }  
+
+.login {
+    height: 20px;
+}
 
 .search {
     display: flex;
@@ -182,7 +185,7 @@ a{
     justify-content: space-around;
     align-items: center;
     height: 100%;
-    gap: 4rem;
+    
 }
 
 .container-index h2 {
