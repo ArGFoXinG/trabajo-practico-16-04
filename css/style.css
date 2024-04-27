@@ -266,15 +266,26 @@ a{
 }
 
 input[type=email]:focus{
-    background-color: lightblue;
+    background-color: #f1f1f1;
 }
 
 input[type=password]:focus{
-    background-color: lightblue;
+    background-color: #f1f1f1;
 }
 
+.btn{
+    padding: 10px 2px ;
+    margin: 8px 0;
+}
+
+.btn a{
+    color: rgb(32, 34, 178);
+    text-decoration: underline;
+}
+
+
 /*FOOTER*/
-.footer-link{
+.footer-link ul{
         list-style-type: none;
         margin: 0;
         padding: 15px 20px;
