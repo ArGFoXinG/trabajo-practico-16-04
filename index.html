@@ -37,15 +37,14 @@
 
   <main>
     <section id="title">
-      <!-- División contenedora del titulo
-                e imagenes -->
+      <!-- Titulo-pregunta -->
       <div class="container-index">
         <h2>¿Qué te gustaría hacer hoy?</h2>
-
-                                       
-  <!-- Div para mostrar todas las imagenes e info de las shows-->
+                                     
+  <!-- Div para mostrar las diferentes categorias-->
         <div class="grilla">
           <div id="list-item">
+
             <!-- teatro -->
             <div class="title-item">
               <a href="./template/teatro.html"> <img src="./img/teatro-mascara-blanco.jpeg" alt="Teatro" class="title-item-img">
@@ -58,9 +57,7 @@
 
             <!-- Cine -->
             <div class="title-item">
-              <a href="./template/cines.html">
-                <img src="./img/cine-2.jpeg" alt="Cines" class="title-item-img">
-
+              <a href="./template/cines.html"> <img src="./img/cine-2.jpeg" alt="Cines" class="title-item-img">
                 <div class="title-item-detail">
                   <p class="title-item-detail-title">CINES</p>
                   <p class="title-item-detail-subtitle">Ver más</p>
@@ -70,9 +67,7 @@
 
             <!-- Recitales -->
             <div class="title-item">
-              <a href="./template/recitales.html">
-                <img src="./img/recitales.jpg" alt="Recitales" class="title-item-img">
-
+              <a href="./template/recitales.html"> <img src="./img/recitales.jpg" alt="Recitales" class="title-item-img">
                 <div class="title-item-detail">
                   <p class="title-item-detail-title">RECITALES</p>
                   <p class="title-item-detail-subtitle">Ver más</p>
@@ -80,8 +75,11 @@
               </a>
             </div>
           </div>
+        </div>
+      </div>
+    </section>
 
-          
+          <!-- Buscador -->
           <div class="search">
             <form action="#" method="get" class="search-bar">
               <input type="text" placeholder="Buscar" name="q">
@@ -89,15 +87,13 @@
             </form>
           </div>
 
+          <!-- Sección Top 5 de cada categoría-->
+          <!-- Top 5 Teatros -->
           <section class="popular-teatro">
-            <!-- División contenedora del titulo e imagenes -->
             <div class="container">
               <h2>Top 5 Teatros</h2>
-              <!-- Div para mostrar todas las imagenes e info 
-                                de las obras -->
               <div id="list-popular">
-                <!-- División que mostrará imagen y detalle de la obra, mismo 
-                                formato para todas las obras -->
+                <!-- Div con cada imagen y detalle de cada obra -->
                 <!-- obra 01 -->
                 <div class="show-item">
                   <a href="https://www.plateanet.com/obra/27960?obra=TIEMPO-DE-ROCK&paso=inicio" target="_blank"
@@ -161,60 +157,59 @@
                     </div>
                   </a>
                 </div>
+              </div>
+            </div>
+          </section>
 
-                <div class="top-5 cines">
-                  <!-- División contenedora del titulo
-                                        e imagenes -->
+        <!-- Top 5 Cines -->
+              <section class="top-5 cines">
                   <div class="container">
                     <h2>Top 5 Cines</h2>
-                    <!-- Div para mostrar todas las imagenes e info 
-                                            de las películas -->
                     <div id="list-popular-cine">
-                      <!-- División que mostrará imagen y detalle de la pelicula, mismo 
-                                            formato para todas las peliculas -->
+                      <!-- Div con cada imagen y detalle de cada pelicula -->
                       <!-- pelicula 01 -->
                       <div class="show-item">
-                        <a href="https://www.cinemarkhoyts.com.ar/proximamente/BACK-TO-BLACK">
+                        <a href="https://www.cinemarkhoyts.com.ar/proximamente/BACK-TO-BLACK" target="_blank" rel="noopener">
                           <img src="img/backtoblack.jpg" alt="Back to black" class="show-item-img">
 
                           <div class="show-item-detail">
                             <p class="show-item-detail-title">
                               Back To Black
                             </p>
-                            <p class="show-item-detail-subtitle">Ver más</p>
+                            <p class="show-item-detail-subtitle-c">Ver más</p>
                           </div>
                         </a>
                       </div>
 
                       <!-- pelicula 02 -->
                       <div class="show-item">
-                        <a href="https://www.cinemarkhoyts.com.ar/pelicula/KUNG-FU-PANDA-4">
+                        <a href="https://www.cinemarkhoyts.com.ar/pelicula/KUNG-FU-PANDA-4" target="_blank" rel="noopener">
                           <img src="img/kunfupanda.jpg" alt="Kun fu Panda 4" class="show-item-img">
 
                           <div class="show-item-detail">
                             <p class="show-item-detail-title">
                               Kun Fu Panda 4
                             </p>
-                            <p class="show-item-detail-subtitle">Ver más</p>
+                            <p class="show-item-detail-subtitle-c">Ver más</p>
                           </div>
                         </a>
                       </div>
 
                       <!-- pelicula 03 -->
                       <div class="show-item">
-                        <a href="https://www.cinemarkhoyts.com.ar/pelicula/DUNA-PARTE-DOS">
+                        <a href="https://www.cinemarkhoyts.com.ar/pelicula/DUNA-PARTE-DOS" target="_blank" rel="noopener">
                           <img src="img/duna.jpg" alt="Duna parte 2" class="show-item-img">
 
                           <div class="show-item-detail">
                             <p class="show-item-detail-title">Duna Parte 2</p>
-                            <p class="show-item-detail-subtitle">Ver más</p>
+                            <p class="show-item-detail-subtitle-c">Ver más</p>
                           </div>
                         </a>
                       </div>
 
                       <!-- pelicula 04 -->
                       <div class="show-item">
-                        <a href="https://www.cinemarkhoyts.com.ar/pelicula/GODZILLA-X-KONG-EL-NUEVO-IMPERIO">
+                        <a href="https://www.cinemarkhoyts.com.ar/pelicula/GODZILLA-X-KONG-EL-NUEVO-IMPERIO" target="_blank" rel="noopener">
                           <img src="img/godzilla.jpg" alt="Godzilla X Kong El Nuevo Imperio" class="show-item-img">
 
                           <div class="show-item-detail">
@@ -222,35 +217,34 @@
                               Godzilla X Kong <br> 
                               El Nuevo Imperio
                             </p>
-                            <p class="show-item-detail-subtitle">Ver más</p>
+                            <p class="show-item-detail-subtitle-c">Ver más</p>
                           </div>
                         </a>
                       </div>
 
                       <!-- pelicula 05 -->
                       <div class="show-item">
-                        <a href="https://www.cinemarkhoyts.com.ar/pelicula/LAZOS-DE-VIDA">
+                        <a href="https://www.cinemarkhoyts.com.ar/pelicula/LAZOS-DE-VIDA" target="_blank" rel="noopener">
                           <img src="img/lazosdevida.jpg" alt="Lazos De Vida" class="show-item-img">
 
                           <div class="show-item-detail">
                             <p class="show-item-detail-title">
                               Lazos De Vida
                             </p>
-                            <p class="show-item-detail-subtitle">Ver más</p>
+                            <p class="show-item-detail-subtitle-c">Ver más</p>
                           </div>
                         </a>
                       </div>
+                    </div>
+                  </div>
+              </section>
 
+                <!-- Top 5 Recitales -->
                       <section class="popular-recitales">
-                        <!-- División contenedora del titulo
-                            e imagenes -->
                         <div class="container">
                           <h2>Top 5 Recitales</h2>
-                          <!-- Div para mostrar todas las imagenes e info 
-                                de los recitales -->
                           <div id="list-popular-recitales">
-                            <!-- División que mostrará imagen y detalle del recital, mismo 
-                                formato para todos los recitales -->
+                            <!-- Div con cada imagen y detalle de cada recital -->
                             <!-- Recital 01 -->
                             <div class="show-item">
                               <a href="https://www.movistararena.com.ar/show/d090d257-ade0-431e-9c14-02aeeba13f8f"
@@ -261,7 +255,7 @@
                                   <p class="show-item-detail-title">
                                     Movistar Arena
                                   </p>
-                                  <p class="show-item-detail-subtitle">
+                                  <p class="show-item-detail-subtitle-r">
                                     Ver más
                                   </p>
                                 </div>
@@ -278,7 +272,7 @@
                                   <p class="show-item-detail-title">
                                     Movistar Arena
                                   </p>
-                                  <p class="show-item-detail-subtitle">
+                                  <p class="show-item-detail-subtitle-r">
                                     Ver más
                                   </p>
                                 </div>
@@ -295,7 +289,7 @@
                                   <p class="show-item-detail-title">
                                     Estadio Velez
                                   </p>
-                                  <p class="show-item-detail-subtitle">
+                                  <p class="show-item-detail-subtitle-r">
                                     Ver más
                                   </p>
                                 </div>
@@ -312,7 +306,7 @@
                                   <p class="show-item-detail-title">
                                     Estadio Velez
                                   </p>
-                                  <p class="show-item-detail-subtitle">
+                                  <p class="show-item-detail-subtitle-r">
                                     Ver más
                                   </p>
                                 </div>
@@ -329,7 +323,7 @@
                                   <p class="show-item-detail-title">
                                     Luna Park
                                   </p>
-                                  <p class="show-item-detail-subtitle">
+                                  <p class="show-item-detail-subtitle-r">
                                     Ver más
                                   </p>
                                 </div>
@@ -338,17 +332,9 @@
                           </div>
                         </div>
                       </section>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-        </div>
-      </div>
-    </section>
   </main>
 
+<!-- boton ir arriba -->
  <a class="gotopbtn" href="#"><i class="fas fa-arrow-up"></i></a>
 
   <footer class="footer">
@@ -361,7 +347,7 @@
     <li><a href="./template/contacto.html" class="links">Contacto</a></li>
   </ul>
   </div>
-    <a href="">Todos los derechos reservados grupo 3 2024</a>
+    <a href="">Todos los derechos reservados Grupo 3 comisión 24123 CAC 2024</a>
   </footer>
 </body>
 
