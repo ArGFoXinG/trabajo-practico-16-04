@@ -75,8 +75,7 @@ a{
 
 /*Buscador*/
 .search{
-    width: 100%;
-    height: 100%;
+
     padding: 2%;
     display: flex;
     align-items: center;
@@ -127,9 +126,6 @@ a{
     background-color: #d6cdd8;
 }
 
-.container-index h2{
-    height: 13vh;
-}
 
 #list-item {
     display: flex;
@@ -196,14 +192,15 @@ a{
     line-height: 10px;
 }
 .show-item-detail-subtitle{
-    top: 61rem;
+    top: 62rem;
+   
 }
 
 .show-item-detail-subtitle-c{
-    top: 89rem;
+    top: 91rem;
 }
 .show-item-detail-subtitle-r{
-    top: 117rem;
+    top: 119rem;
 }
 
 .show-item-detail-subtitle-template{
@@ -258,7 +255,7 @@ a{
 
 
 .container-index h2 {
-    text-align: center;
+   text-align: center;
    font-size: 50px;
    height: 13vh;
 }
@@ -290,7 +287,6 @@ a{
     color: #f1f1f1;
     font-size: 22px;
     border-radius: 25px;
-    
 }
 
 /*Formularios*/
