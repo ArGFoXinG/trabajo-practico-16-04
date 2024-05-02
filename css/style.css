@@ -20,21 +20,47 @@ body, html {
     scroll-behavior: smooth;
 }
 
+a{
+    text-decoration: none;
+    color: var(--letras-color);
+    font-family: var(--secondary-font);
+    font-weight: bold;
+}
+
+
 .logo{
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-    .nav-links{
+
+/* Navbar Ingresa*/
+   .nav-links{
         list-style-type: none;
-        margin: 0;
         display: contents;
         justify-content: flex-end;
         background-color: var(--nav-color);
         overflow: hidden;
+        text-align: right;
+
     }
 
+    .links {
+        position: relative;
+        display: inline-block;
+        text-decoration: none;
+        color: var(--letras-color);
+        font-size: 20px;
+        margin-right: 20px;
+    }
+         
     
+    .login {
+        height: 30px;
+    }
+    
+
+/*Navbar Template*/
     .nav-links-template{
         list-style-type: none;
         margin: 0;
@@ -45,26 +71,7 @@ body, html {
         overflow: hidden; 
     }
     
- 
 
-.links {
-    position: relative;
-    display: inline-block;
-    text-decoration: none;
-    color: var(--letras-color);
-    
-}
-    
-a{
-    text-decoration: none;
-    color: var(--letras-color);
-    font-family: var(--secondary-font);
-    font-weight: bold;
-}  
-
-.login {
-    height: 20px;
-}
 
 /*Buscador*/
 .search{
@@ -305,9 +312,11 @@ input[type=password]:focus{
     background-color: #f1f1f1;
 }
 
+
 .btn{
     padding: 10px 2px ;
     margin: 8px 0;
+    text-align: center;
 }
 
 .btn a{
@@ -337,6 +346,7 @@ label {
 input[type="text"],
 input[type="email"],
 input[type="date"],
+input[type="password"],
 select,
 textarea {
     width: 90%;
@@ -383,7 +393,11 @@ button:hover {
     list-style-type: none;
     display: flex;
     justify-content: space-around;
-    background-color: var(--nav-color);
+    background-color:#cec5c5f2;
+}
+
+.footer-link ul li a{
+    color: #353434;
 }
 
 .footer a{
@@ -396,14 +410,19 @@ button:hover {
 }
 
 
-
 /* Estilos comunes para todos los tamaños de pantalla */
 
 /* Media query para dispositivos móviles */
 @media only screen and (max-width: 600px) {
 .container-index h2 {
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
+}
+
+.container-index{
+    flex-direction: column;
+    width: 100%;
+    height: auto;
 }
 
 
@@ -411,11 +430,17 @@ button:hover {
 }
 
 /* Media query para tablets */
-/*@media only screen and (min-width: 601px) and (max-width: 1024px) {
-  
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    .container-index h2 {
+        text-align: center;
+        font-size: 30px;
+    }
+    
+    .container-index{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
 }
 
-/* Media query para computadoras de escritorio */
-/*@media only screen and (min-width: 1025px) {
-  
-} 
+ 
