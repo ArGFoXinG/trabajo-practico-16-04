@@ -59,7 +59,40 @@ a{
         height: 30px;
     }
     
-
+    .title-item-detail-subtitle{
+        position: absolute;
+        width: 17vw;
+        top: 25rem;
+        color: #f1f1f1;
+        font-size: 20px;
+        display: none; 
+    }
+    
+    #title-about h1 {
+        text-align: center;
+    }
+    
+    #title-about p {
+        text-align: center;
+    
+    }
+    
+    .img-about {
+        display: flex;
+        justify-content: space-evenly;
+        object-fit: cover;
+    }
+    
+    .img1 .img2 .img3 .img4 {
+        width: 350px;
+        height: 200px;
+        margin-right: 50px;
+    }
+    
+    
+    .title-item:hover .title-item-detail-subtitle{
+        display: block;
+    }
 /*Navbar Template*/
     .nav-links-template{
         list-style-type: none;
