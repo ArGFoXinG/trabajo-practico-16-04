@@ -134,114 +134,59 @@ a{
     align-items: center;
     height: 100%;
 }
-
-.title-item-detail-subtitle {
-    position: absolute;
-    width: 8vw;
-    top: 25rem;
-    color: #f1f1f1;
-    font-size: 25px;
-    font-weight: 700;
-    display: none;
-    background-color: rgba(88, 84, 88, 0.8);
-    border-radius: 80px;
-    margin: 15px 50px;
-    padding: 15px 20px;
-    text-align: center;
-    line-height: 10px;
-}
-
-.title-item:hover .title-item-detail-subtitle{
-    display: block;
-}
+.title-item {
+    position: relative;
+    display: inline-block;
+    
+  }
+ 
 
 .title-item-img {
     width: 250px;
     height: 250px;
     object-fit: cover;
-    transition: all.5s;
-    box-shadow: 0px 15px 25px rgba(0,0,0,0.70);
-    border:3px solid var(--letrasbn-color);
+    transition: all.7s ease;
+  box-shadow: 0px 15px 25px rgba(0,0,0,0.70);
+   border:3px solid var(--letrasbn-color);
+   
 
 }
 
-.title-item-img:hover{
+.title-item:hover .title-item-img{
     transform: scale(1.09);
     filter: blur(3px); 
 }
+.title-item-detail-subtitle{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -90%);
+  width: 50%;
+  max-width: 200px;
+  padding: 10px;
+  height: 7%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(88, 84, 88, 0.8);
+  opacity: 0;
+  border-radius: 100px;
+  color: #f1f1f1;
+  text-align: center;
+  margin: 0;
+  font-size:25px ;
+  
+  }
 
-
-.title-item p {
+  .title-item-detail-subtitle:hover {
+    opacity: 1;
+  }
+.title-item h3 {
     text-align: center;
     height: 1vh;
 }
 
 /* Top categorías*/
-.show-item-detail-subtitle,.show-item-detail-subtitle-c, .show-item-detail-subtitle-r, .show-item-detail-subtitle-template, .show-item-detail-subtitle-template-c{
-    position: absolute;
-    width: 5vw;
-    color: #f1f1f1;
-    font-size: 20px;
-    font-weight: 500;
-    display: none;
-    background-color: rgba(88, 84, 88, 0.8);
-    border-radius: 80px;
-    margin: 15px 40px;
-    padding: 15px 20px;
-    text-align: center;
-    line-height: 10px;
-}
-.show-item-detail-subtitle{
-    top: 63rem;
-   
-}
-
-.show-item-detail-subtitle-c{
-    top: 91rem;
-}
-.show-item-detail-subtitle-r{
-    top: 119rem;
-}
-
-.show-item-detail-subtitle-template{
-  margin-top: -10rem;
-}
-
-.show-item-detail-subtitle-template-c{
-    margin-top: -13rem;
-}
-
-.show-item:hover .show-item-detail-subtitle,.show-item:hover .show-item-detail-subtitle-c, .show-item:hover .show-item-detail-subtitle-r, .show-item:hover .show-item-detail-subtitle-template,.show-item:hover .show-item-detail-subtitle-template-c {
-    display: block;
-}
-
-.show-item-img{
-    width: 200px;
-    height: auto;
-    object-fit: cover;
-    transition: all.5s;
-    cursor: pointer;
-    box-shadow: 0px 15px 25px rgba(0,0,0,0.70); 
-    position: relative;
-    display: inline-block;
-    border:3px solid var(--letrasbn-color);   
-}
-
-  .show-item-img:hover{
-    transform: scale(1.09);
-    filter: blur(1.5px);
-
-}
-
-.show-item p {
-    text-align: center;
-    height: 1vh;
-}
-
-
-.show-item:hover .show-item-detail{
-    top:0; 
-}
 
 
 #list-popular, #list-popular-cine,#list-popular-recitales {
@@ -252,6 +197,58 @@ a{
     align-items: center;
     height: 100%;   
 }
+
+.show-item {
+    position: relative;
+    display: inline-block;
+    
+  }
+
+.show-item-img{
+    width: 200px;
+    height: auto;
+    object-fit: cover;
+    transition: all.7s;
+    box-shadow: 0px 15px 25px rgba(0,0,0,0.70); 
+    border:3px solid var(--letrasbn-color);   
+}
+
+.show-item:hover .show-item-img{
+    transform: scale(1.09);
+    filter: blur(1.5px);
+
+}
+  .show-item-detail-subtitle {
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -90%);
+  width: 50%;
+  max-width: 200px;
+  padding: 10px;
+  height: 7%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(88, 84, 88, 0.8);
+  opacity: 0;
+  border-radius: 100px;
+  color: #f1f1f1;
+  text-align: center;
+  margin: 0;
+  font-size:25px ;
+  
+  }
+
+  .show-item-detail-subtitle:hover, .show-item-detail-subtitle-template:hover {
+    opacity: 1;
+  } 
+
+.show-item h3 {
+    text-align: center;
+    height: 1vh;
+}
+
 
 
 .container-index h2 {
