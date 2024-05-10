@@ -285,27 +285,49 @@ a{
     font-size: 22px;
     border-radius: 25px;
 }
+
 /*About*/
-#title-about h1 {
+
+#title-about {
     text-align: center;
 }
 
-#title-about p {
+.img-about .nombreAbout h3 {
+    /* position: absolute;
     text-align: center;
-
+    margin: 0;
+    padding: 0; */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
 }
 
 .img-about {
-    display: flex;
-    justify-content: space-evenly;
-    object-fit: cover;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
 }
 
-.img1 .img2 .img3 .img4 {
-    width: 350px;
-    height: 200px;
-    margin-right: 50px;
+/*.img-about img {
+    width: 70%; 
+    height: auto;
+    
+}*/
+
+.retrato1 {
+    /* width: 100%;
+    height: auto; */
+    position: relative;
 }
+.retrato1 img{
+    width: 100%;
+    height: auto;
+}
+
 
 
 /*Formularios*/
