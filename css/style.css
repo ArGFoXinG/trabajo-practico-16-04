@@ -270,25 +270,11 @@ a{
     justify-content: center;
 }
 
-/*Botón ir arriba*/
-.gotopbtn{
-    position: fixed;
-    width: 50px;
-    height: 50px;
-    background: rgb(234, 166, 201);
-    bottom: 40px;
-    right: 50px;
-    text-decoration: none;
-    text-align: center;
-    line-height: 50px;
-    color: #f1f1f1;
-    font-size: 22px;
-    border-radius: 25px;
-}
+
 
 /*About*/
 
-#title-about {
+#title-about h1 {
     text-align: center;
 }
 
@@ -446,6 +432,21 @@ button:hover {
     background-color: var(--nav-color);
 }
 
+/*Botón ir arriba*/
+.gotopbtn{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: rgb(234, 166, 201);
+    bottom: 40px;
+    right: 50px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: #f1f1f1;
+    font-size: 22px;
+    border-radius: 25px;
+}
 
 /* Estilos comunes para todos los tamaños de pantalla */
 
