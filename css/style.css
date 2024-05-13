@@ -433,20 +433,28 @@ button:hover {
 }
 
 /*Botón ir arriba*/
+
 .gotopbtn{
     position: fixed;
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     background: rgb(234, 166, 201);
-    bottom: 40px;
-    right: 50px;
+    bottom: 20px;
+    right: 10px;
     text-decoration: none;
     text-align: center;
-    line-height: 50px;
+    line-height: 30px;
     color: #f1f1f1;
-    font-size: 22px;
+    font-size: 15px;
     border-radius: 25px;
 }
+
+.gotopbtn:hover {
+    background-color: #777;
+}
+
+
+
 
 /* Estilos comunes para todos los tamaños de pantalla */
 
@@ -482,13 +490,28 @@ button:hover {
 }
 
 .img-about h3{
-    font-size: 6px;
+    font-size: 8px;
    
 }
+
+#title-about p, ul li{
+    font-size: 15px;
+}
+
+.gotopbtn{
+    width: 20px;
+    height: 20px;
+    bottom: 10px;
+    right: 5px;
+    line-height: 20px;
+    font-size: 10px;
+  
+}
+
 }
 
 /* Media query para tablets */
-@media only screen and (min-width: 601px) and (max-width: 1010px) {
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
     .container-index h2 {
         text-align: center;
         font-size: 30px;
@@ -503,6 +526,7 @@ button:hover {
         font-size: 10px;
        
     }
+    
 
 }
 
