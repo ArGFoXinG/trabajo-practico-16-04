@@ -279,10 +279,6 @@ a{
 }
 
 .img-about .nombreAbout h3 {
-    /* position: absolute;
-    text-align: center;
-    margin: 0;
-    padding: 0; */
     position: absolute;
     bottom: 0;
     left: 0;
@@ -298,15 +294,8 @@ a{
     grid-gap: 10px;
 }
 
-/*.img-about img {
-    width: 70%; 
-    height: auto;
-    
-}*/
 
 .retrato1 {
-    /* width: 100%;
-    height: auto; */
     position: relative;
 }
 .retrato1 img{
