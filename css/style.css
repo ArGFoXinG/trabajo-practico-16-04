@@ -443,10 +443,6 @@ button:hover {
 }
 
 
-
-
-/* Estilos comunes para todos los tamaños de pantalla */
-
 /* Media query para dispositivos móviles */
 @media only screen and (min-width: 320px) and (max-width: 600px) {
 .container-index h2 {
